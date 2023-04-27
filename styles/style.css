@@ -88,7 +88,7 @@ body{
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
     color: #9af7e9;
-    border: 3px solid #00c8ff6d;
+    border: 3px dashed #00c8ff6d;
     width: 500px;
     line-height: 22px;
     position: relative;
@@ -96,7 +96,7 @@ body{
 }
 .dotamap{
 
-    border: 3px solid #00c8ff6d;
+    border: 3px dashed #00c8ff6d;
     height: auto;
     position: absolute;
     right: 100px;
@@ -109,12 +109,12 @@ p{
 
 table {
   width: 100%; /* Ширина таблицы */
-  background: white; /* Цвет фона таблицы */
+  background: rgba(1, 47, 58, 0.597); /* Цвет фона таблицы */
   color: white; /* Цвет текста */
   border-spacing: 1px; /* Расстояние между ячейками */
  }
  td, th {
-  background: rgb(129, 4, 140); /* Цвет фона ячеек */
+  background: rgba(118, 18, 128, 0.689); /* Цвет фона ячеек */
   padding: 5px; /* Поля вокруг текста */
  }
 .table1{
