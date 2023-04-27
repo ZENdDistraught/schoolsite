@@ -51,7 +51,7 @@ header {
     border-radius: 8px;
   }
 body{
-    background: url(resourses/bg.jpg) no-repeat;
+    background: url(resourses/bg.jpg);
     background-size: auto;
     background-position-x: center;
 }
