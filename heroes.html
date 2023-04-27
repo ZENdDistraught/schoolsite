@@ -2,8 +2,9 @@
 <html lang="ru">
 
 <head>
+<script src="scripts/jquery.js"></script>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="styles/style.css">
 <header>
   <div class="logo">
     <a href="index.html">
@@ -24,6 +25,11 @@
 <title>гайд на лину</title>
 </head>
 
-<body>
+<body style="opacity:0;transition:.5s;">
+  <script>
+    $(document).ready(function() {    
+      $("body").css("opacity", "1");
+    });
+  </script>
 </body>
 </html>

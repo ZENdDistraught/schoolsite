@@ -3,7 +3,8 @@
 
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="style.css">
+<script src="scripts/jquery.js"></script>
+<link rel="stylesheet" href="styles/style.css">
 <header>
   <div class="logo">
     <a href="index.html">
@@ -24,11 +25,15 @@
 <title>Предметы</title>
 </head>
 
-<body>
-  <table>
+<body style="opacity:0;transition:.5s;">
+  <table class="table1">
     <tr><th>Nullifier</th><th>Цена</th><th>Характеристики</th><th align="center">Рецепт</th>
     <tr><td align="center"><img src="resourses/Nullifier.png" align-items: center></td><td align="center">4375<img src="resourses/Gold_symbol.webp"></td><td align="center">+6 к восстановлению здоровья<br>+10 к броне<br>+75 к урону</td><td align="center"><img src="resourses/Sacred_Relic_icon.webp"> <br>+ <br><img src="resourses/Helm_of_Iron_Will_icon.webp"></td></tr>
-    
    </table>
+   <script>
+    $(document).ready(function() {    
+      $("body").css("opacity", "1");
+    });
+  </script>
 </body>
 </html>

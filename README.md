@@ -1,3 +1,4 @@
-# Сайт для проектной работы
-[Проект](https://zenddistraught.github.io/schoolsite/index.html)
+# Сайт для проектной работ
+---
+[Сайт](https://zenddistraught.github.io/schoolsite/index.html)
 ---

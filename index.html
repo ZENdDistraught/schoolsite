@@ -2,6 +2,7 @@
 <html lang="ru">
 
 <head>
+<script src="scripts/jquery.js"></script>
 <!--страница подстроится под ширину устройства-->
 <meta name="viewport" content="width=device-height"> 
 
@@ -15,7 +16,7 @@
 <meta charset="UTF-8"> 
 
 <!--подключаем css файл(файл разметки) для отображения стилей элементов-->
-<link rel="stylesheet" href="style.css"> 
+<link rel="stylesheet" href="styles/style.css"> 
 <header>
   <!--<div> создает отдельный блок информации который потом можно редактировать с помощью классов,
    сам блок находится в блоке <header> что означает,что наш блок находится в шапке страницы-->
@@ -30,20 +31,17 @@
 
   <div class="menu">
     <ul>
-      <li><a href="index.html">Главная</a></li>
+      <li class="active"><a href="index.html">Главная</a></li>
       <li><a href="items.html">Предметы</a></li>
       <li><a href="heroes.html">Герои</a></li>
     </ul>
   </div>
-
-  <div class="tel">
-  </div> 
 </header>
 
 <title>Справочник DOTA2</title> <!--Название страницы в панели выбора вкладок-->
 </head>
 
-<body>
+<body style="opacity:0;transition:.5s;">
   <!--h1 - это заголовок, 
   в моем случае к заголовку я подключаю класс "about" из файла(по умному - библиотеки) разметки style.css который мы подключали выше-->
 <h1 class="about">Что такое DOTA2</h1>
@@ -62,6 +60,11 @@
 </p> 
 <!--добавляем картинку с классом "dotamap"чтобы так же сделать ее под вид нашего оформления-->
 <img class="dotamap" src="resourses/dotamap.png"> 
+<script>
+  $(document).ready(function() {    
+    $("body").css("opacity", "1");
+  });
+</script>
 </body> 
 
 </html>
