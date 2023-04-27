@@ -58,3 +58,6 @@ body{
     color: white;
     text-align: center;
 }
+.about .active{
+    color: #ff3d00;
+}
