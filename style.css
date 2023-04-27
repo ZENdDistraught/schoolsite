@@ -67,17 +67,18 @@ body{
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
     color: #9af7e9;
-    border: 3px solid #1e00ff;
+    border: 3px solid #00b7ff84;
     width: 500px;
     line-height: 22px;
-    position: relative;
+    position: absolute;
     left: 200px;
 }
 .dotamap{
 
-    border: 3px solid #1e00ff;
+    border: 3px solid #00b7ff84;
     height: auto;
     position: absolute;
-    right: 100px;
-    top: 152px;
+    right: 40px;
+    top: 75px;
 }
+    
