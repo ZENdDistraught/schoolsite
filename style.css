@@ -51,8 +51,9 @@ header {
     border-radius: 8px;
   }
 body{
-    background-image: url(resourses/bg.jpg);
-    background-size: 100%;
+    background: url(resourses/bg.jpg) no-repeat;
+    background-size: auto;
+    background-position-x: center;
 }
 .about{
     color: white;
@@ -60,4 +61,23 @@ body{
 }
 .about .active{
     color: #ff3d00;
+}
+.style{
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    color: #9af7e9;
+    border: 3px solid #1e00ff;
+    width: 500px;
+    line-height: 22px;
+    position: relative;
+    left: 200px;
+}
+.dotamap{
+
+    border: 3px solid #1e00ff;
+    height: auto;
+    position: absolute;
+    right: 100px;
+    top: 152px;
 }
